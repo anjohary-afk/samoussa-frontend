@@ -116,8 +116,8 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={<AppContent />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/" element={<Shop />} />
+          <Route path="/admin" element={<AppContent />} />
           <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
